@@ -5,7 +5,7 @@ ccflags = [
     '-DPTW32_STATIC_LIB',
     '-DHAVE_PTW32_CONFIG_H',
     '-O3',
-    '-m32'
+    '-m64'
 ]
 env.Library('pthread',
     ['pthread.c'], CCFLAGS=ccflags, CPPPATH=['.'])

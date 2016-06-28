@@ -3,6 +3,7 @@
 #include <queue>
 #include <algorithm>
 #include "MedianCut16bitQuantizer.h"
+#include <limits>
 
 // This source code uses Median cut algorithm C++.
 // This is an original license.

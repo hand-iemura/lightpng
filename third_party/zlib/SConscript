@@ -1,6 +1,6 @@
 Import('env')
 
-ccflags = ['-O3', '-m32']
+ccflags = ['-O3', '-m64']
 
 env.Library('z',
     ['adler32.c', 'compress.c', 'crc32.c', 'deflate.c', 'gzclose.c', 'gzlib.c', 'gzread.c',
